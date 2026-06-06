@@ -163,3 +163,22 @@ body {
     transform: translateY(0);
   }
 }
+@media (max-width: 450px) 
+{
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    #input {
+      width: 70%;
+    }
+
+    #add-btn {
+      width: 25%;
+    }
+
+    #todo-list li {
+      width: 100%;
+    }
+}
